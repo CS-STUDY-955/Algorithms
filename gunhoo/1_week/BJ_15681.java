@@ -1,17 +1,19 @@
 package Gold;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.StringTokenizer;
 
-public class BJ_15681_Æ®¸®¿ÍÄõ¸® {
-/** ¾Ë°í¸®Áò ½ºÅÍµğ #1
- * ÃÑ ½Ã°£(1½Ã°£ 50ºĞ)
- * ¹®Á¦ ÀÌÇØ ½Ã°£ : 17:52 ~ 18:04(12ºĞ)
- * ¹®Á¦ Ç®ÀÌ ½Ã°£ : 18:04 ~ 19:27(tree Ã£¾Æº½ : ArrayList »ç¿ë¹ı)(1½Ã°£23ºĞ)
- * ~19:42 ¿Ï·á(¸Ş¸ğ¸®, ½Ã°£ ³Ê¹« ¸¹À½)(15ºĞ)
+public class BJ_15681_íŠ¸ë¦¬ì™€ì¿¼ë¦¬ {
+/** ì•Œê³ ë¦¬ì¦˜ ìŠ¤í„°ë”” #1
+ * ì´ ì‹œê°„(1ì‹œê°„ 50ë¶„)
+ * ë¬¸ì œ ì´í•´ ì‹œê°„ : 17:52 ~ 18:04(12ë¶„)
+ * ë¬¸ì œ í’€ì´ ì‹œê°„ : 18:04 ~ 19:27(tree ì°¾ì•„ë´„ : ArrayList ì‚¬ìš©ë²•)(1ì‹œê°„23ë¶„)
+ * ~19:42 ì™„ë£Œ(ë©”ëª¨ë¦¬, ì‹œê°„ ë„ˆë¬´ ë§ìŒ)(15ë¶„)
  * 
  * @param args
- * @Author ¹Ú°ÇÈÄ
+ * @Author ë°•ê±´í›„
  */
 	/* 
 	private static Map removeParent(int parent, Map<Integer, Integer> tree) {
@@ -34,11 +36,12 @@ public class BJ_15681_Æ®¸®¿ÍÄõ¸® {
 		}
 	}
 	
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int r = sc.nextInt();
-		int q = sc.nextInt();
+	public static void main(String[] args) throws Exception{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int n = Integer.parseInt(st.nextToken());
+		int r = Integer.parseInt(st.nextToken());
+		int q = Integer.parseInt(st.nextToken());
 		tree = new ArrayList[n+1];
 		
 //		for(int i = 0; i<= n ; i++) {
@@ -49,8 +52,9 @@ public class BJ_15681_Æ®¸®¿ÍÄõ¸® {
 		visited = new boolean[n+1];
 		
 		for(int idx = 0; idx<n-1; idx++) {
-			int u = sc.nextInt();
-			int v = sc.nextInt();
+			st = new StringTokenizer(br.readLine());
+			int u = Integer.parseInt(st.nextToken());
+			int v = Integer.parseInt(st.nextToken());
 			if(tree[u] != null) {
 				tree[u].add(v);
 				if(tree[v] != null) {
@@ -80,7 +84,8 @@ public class BJ_15681_Æ®¸®¿ÍÄõ¸® {
 		countSubtreeNodes(r, n);
 		
 		for(int idx = 0; idx < q; idx++) {
-			int u = sc.nextInt();
+			st = new StringTokenizer(br.readLine());
+			int u = Integer.parseInt(st.nextToken());
 			
 			System.out.println(size[u]);
 		}
