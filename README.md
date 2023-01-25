@@ -10,18 +10,19 @@
 ## PR 규칙 및 Commit Message 규칙
 
 #### Pull Request
-- [Baekjoon-폴더명] 이름
+- [BJ_폴더명] 이름
 
 #### Commit Message
-- [Baekjoon-문제번호] 문제명
+- [BJ_문제번호] 문제명
 
 ## 파일 및 폴더 구조
 
 #### 백준
 
-- Baekjoon/suyeon/폴더명/문제번호_문제명.py
-- Baekjoon/eugene/폴더명/문제번호_문제명.py
-- Baekjoon/jiwoo/폴더명/문제번호_문제명.py
+- Baekjoon/gunhoo/폴더명/문제번호_문제명.java
+- Baekjoon/jinhyugn/폴더명/문제번호_문제명.java
+- Baekjoon/yonghyun/폴더명/문제번호_문제명.java
+- Baekjoon/sinwook/폴더명/문제번호_문제명.java
 
 ## 일정표
 
