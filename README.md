@@ -7,6 +7,26 @@
     - 목 PT 후 차주 문제 3개 선정
 3. 언어 : Java
 
+## PR 규칙 및 Commit Message 규칙
+
+#### Pull Request
+
+- [Programmers-폴더명] 이름
+- [Baekjoon-폴더명] 이름
+
+#### Commit Message
+
+- [Programmers-문제번호] 문제명
+- [Baekjoon-문제번호] 문제명
+
+## 파일 및 폴더 구조
+
+#### 백준
+
+- Baekjoon/suyeon/폴더명/문제번호_문제명.py
+- Baekjoon/eugene/폴더명/문제번호_문제명.py
+- Baekjoon/jiwoo/폴더명/문제번호_문제명.py
+
 ## 일정표
 
 | **주차** | **폴더명**          | **문제 1**                                                   | **문제 2**                                                   | **문제 3**                                                   | **진행 현황** |
