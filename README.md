@@ -20,7 +20,7 @@
 #### 백준
 
 - Baekjoon/gunhoo/폴더명/문제번호_문제명.java
-- Baekjoon/jinhyugn/폴더명/문제번호_문제명.java
+- Baekjoon/jinhyung/폴더명/문제번호_문제명.java
 - Baekjoon/yonghyun/폴더명/문제번호_문제명.java
 - Baekjoon/sinwook/폴더명/문제번호_문제명.java
 
