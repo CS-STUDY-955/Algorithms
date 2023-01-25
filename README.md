@@ -10,13 +10,9 @@
 ## PR 규칙 및 Commit Message 규칙
 
 #### Pull Request
-
-- [Programmers-폴더명] 이름
 - [Baekjoon-폴더명] 이름
 
 #### Commit Message
-
-- [Programmers-문제번호] 문제명
 - [Baekjoon-문제번호] 문제명
 
 ## 파일 및 폴더 구조
