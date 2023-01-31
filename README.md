@@ -10,10 +10,12 @@
 ## PR 규칙 및 Commit Message 규칙
 
 #### Pull Request
-- [BJ_폴더명] 이름
+- [BJ_폴더명_문제수] 이름
+> [BJ_2_week_3] 박건후
 
 #### Commit Message
 - [BJ_문제번호] 문제명
+> [BJ_3020] 개똥벌레
 
 ## 파일 및 폴더 구조
 
