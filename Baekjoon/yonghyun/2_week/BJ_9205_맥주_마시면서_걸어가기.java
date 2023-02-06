@@ -14,16 +14,16 @@ import java.util.Queue;
  * 4. bfs로 목적지까지 움직이며 도착하기 전에 큐가 빈다면 sad, 도착한다면 happy를 출력한다.
  * 5. 자료는 Point 클래스를 만들어서 1차원 배열로 만드는 게 가장 효율적일 것 같다.
  */
-class Point {
-	int x;
-	int y;
-	public Point(int x, int y) {
-		this.x = x;
-		this.y = y;
-	}
-}
-
 public class BJ_9205_맥주_마시면서_걸어가기 {
+	static class Point {
+		int x;
+		int y;
+		public Point(int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
+	}
+
 	static int n;      // 편의점 개수 n
 	static Point[] stores;      // 편의점 위치 정보 배열
 	static boolean[] visited;       // 편의점 방문 체크 배열
