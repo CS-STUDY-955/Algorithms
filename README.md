@@ -35,3 +35,6 @@
 | 3주차    | 3_week  | [치킨배달](https://www.acmicpc.net/problem/15686)        | [공약수](https://www.acmicpc.net/problem/2436)    | [안정된 집단](https://www.acmicpc.net/problem/2653) | `진행 완료`   |
 | 4주차    | 4_week  | [아기 상어](https://www.acmicpc.net/problem/16236)       | [테트로미노](https://www.acmicpc.net/problem/14500) | [연구소](https://www.acmicpc.net/problem/14502)   | `진행 중`    |
 
+## 참고
+- [백준온라인저지](https://www.acmicpc.net/)
+- [삼성SW기출문제](https://www.acmicpc.net/group/workbook/view/16664/53490)
