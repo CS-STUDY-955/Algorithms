@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  * - 약 1시간 고민해서 못 풀었고, 찾아보니 누적합이라는 알고리즘을 사용했다.
  *
  */
-public class 개똥벌레 {
+public class BJ_3020_개똥벌레 {
     public static void main(String[] args) throws Exception {
         // 입력 처리 & 지역 변수 선언
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
