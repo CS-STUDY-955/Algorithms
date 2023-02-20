@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  */
 
 // 3020번: 개똥벌레
-public class Q3020 {
+public class BJ_3020_개똥벌레 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer stringTokenizer = new StringTokenizer(br.readLine());

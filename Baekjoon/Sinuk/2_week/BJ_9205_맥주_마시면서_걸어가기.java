@@ -36,7 +36,7 @@ class Node {
 	}
 }
 
-public class Q9205 {
+public class BJ_9205_맥주_마시면서_걸어가기 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

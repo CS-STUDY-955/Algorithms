@@ -74,7 +74,7 @@ class Tree {
     }
 }
 
-public class Q15681 {
+public class BJ_15681_트리와_쿼리 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
