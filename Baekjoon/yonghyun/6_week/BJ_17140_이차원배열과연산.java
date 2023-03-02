@@ -1,5 +1,3 @@
-package 백준.골드4.이차원_배열과_연산;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -17,11 +15,11 @@ import static java.lang.Integer.parseInt;
  * 4. 등장횟수, 숫자의 오름차순으로 ArrayList를 정렬한다.
  * 5. ArrayList에 들어가있는 순서대로 배열의 값을 갱신한다. (나머지 공간은 0으로 채운다.)
  * 6. 모든 행 또는 열에 대해 2~5를 수행한다.
- * 7. k가 최대 100에 도달할때까지 수행하고, 정답이 나오면 k를, 정답이 나오지 않으면 -1을 출력한다.
+ * 7. cnt가 최대 100에 도달할때까지 수행하고, 정답이 나오면 k를, 정답이 나오지 않으면 -1을 출력한다.
  *
  * @author 배용현
  */
-public class Main {
+public class BJ_17140_이차원배열과연산 {
     // 클래스를 만들어 사용하려면 여기에 선언한다.
     static class MyComparator implements Comparator<int[]> {        // Comparator 2번 사용하므로 따로 선언
 
