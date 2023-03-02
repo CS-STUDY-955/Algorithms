@@ -1,5 +1,3 @@
-package 백준.골드4.주사위_굴리기;
-
 import java.io.*;
 import java.util.*;
 
@@ -14,7 +12,7 @@ import java.util.*;
  *
  * @author 배용현
  */
-public class Main {
+public class BJ_14499_주사위굴리기 {
     static class Dice {
         int top = 0, bottom = 0, east = 0, west = 0, north = 0, south = 0;      // 처음엔 모든면이 0
 

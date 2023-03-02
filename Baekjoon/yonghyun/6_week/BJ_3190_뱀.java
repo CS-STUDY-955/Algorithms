@@ -16,7 +16,7 @@ import static java.lang.Integer.parseInt;
  * @author 배용현
  *
  */
-public class BJ_3190_뱀_배용현 {
+public class BJ_3190_뱀 {
 	static class Turn {		// 이동 명령 저장
 		int sec;
 		boolean turnR;
