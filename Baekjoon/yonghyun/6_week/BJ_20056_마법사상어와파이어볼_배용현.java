@@ -22,8 +22,8 @@ public class BJ_20056_마법사상어와파이어볼_배용현 {
 		int r, c, m, s, d;
 
 		public Fireball(int r, int c, int m, int s, int d) {
-			this.r = r - 1;
-			this.c = c - 1;
+			this.r = r;
+			this.c = c;
 			this.m = m;
 			this.s = s;
 			this.d = d;
@@ -82,10 +82,10 @@ public class BJ_20056_마법사상어와파이어볼_배용현 {
 
 					if (odd || even) {		// 모두 홀수거나 짝수이면
 						for (int k = 0; k < 8; k+=2)		// 0, 2, 4, 6의 방향을 가짐
-							fireballs.add(new Fireball(j, i, nm, ns, k));
+							fireballs.add(new Fireball(i, j, nm, ns, k));
 					} else {		// 아니면
 						for (int k = 1; k < 8; k+=2)		// 1, 3, 5, 7의 방향을 가짐
-							fireballs.add(new Fireball(j, i, nm, ns, k));
+							fireballs.add(new Fireball(i, j, nm, ns, k));
 					}
 				} else {		// 1개만 존재하는 곳은 다음 사용을 위해 별도로 초기화
 					fbArray[i][j].clear();
@@ -113,8 +113,8 @@ public class BJ_20056_마법사상어와파이어볼_배용현 {
 		for (int i = 0; i < M; i++) {
 			st = new StringTokenizer(br.readLine());
 			fireballs.add(new Fireball(
-					parseInt(st.nextToken()),
-					parseInt(st.nextToken()),
+					parseInt(st.nextToken()) - 1,
+					parseInt(st.nextToken()) - 1,
 					parseInt(st.nextToken()),
 					parseInt(st.nextToken()),
 					parseInt(st.nextToken())
