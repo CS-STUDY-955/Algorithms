@@ -37,12 +37,13 @@
 | 2주차    | 2_week  | [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) | [개똥벌레](https://www.acmicpc.net/problem/3020)          | [퇴사 2](https://www.acmicpc.net/problem/15486)     | `진행 완료`   |
 | 3주차    | 3_week  | [치킨배달](https://www.acmicpc.net/problem/15686)        | [공약수](https://www.acmicpc.net/problem/2436)           | [안정된 집단](https://www.acmicpc.net/problem/2653)    | `진행 완료`   |
 | 4주차    | 4_week  | [아기 상어](https://www.acmicpc.net/problem/16236)       | [테트로미노](https://www.acmicpc.net/problem/14500)        | [연구소](https://www.acmicpc.net/problem/14502)      | `진행 완료`   |
-| 5주차    | 5_week  | [감시](https://www.acmicpc.net/problem/15683)          | [드래곤 커브](https://www.acmicpc.net/problem/15685)       | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) | `진행 중`    |
+| 5주차    | 5_week  | [감시](https://www.acmicpc.net/problem/15683)          | [드래곤 커브](https://www.acmicpc.net/problem/15685)       | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) | `진행 완료`   |
 
 
-| **주차** | **폴더명** | **문제 1(강신욱)**                                       | **문제 2(박건후)**                                         | **문제 3(배용현)**                             | **문제 4(양진형)**                                    | **진행 현황** |
-|--------|---------|-----------------------------------------------------|-------------------------------------------------------|-------------------------------------------|--------------------------------------------------|-----------|
-| 6주차    | 6_week  | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056) | [뱀](https://www.acmicpc.net/problem/3190) | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | `진행 예정`   |
+| **주차** | **폴더명** | **문제 1(강신욱)**                                       | **문제 2(박건후)**                                         | **문제 3(배용현)**                                   | **문제 4(양진형)**                                    | **진행 현황** |
+|--------|---------|-----------------------------------------------------|-------------------------------------------------------|-------------------------------------------------|--------------------------------------------------|-----------|
+| 6주차    | 6_week  | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056) | [뱀](https://www.acmicpc.net/problem/3190)       | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | `진행 완료`   |
+| 7주차    | 7_week  | [연구소 3](https://www.acmicpc.net/problem/17142)      | [사다리 조작](https://www.acmicpc.net/problem/15684)       | [나무 재테크](https://www.acmicpc.net/problem/16235) | [경사로](https://www.acmicpc.net/problem/14890)     | `진행 중`    |
 
 ## 참고
 - [백준온라인저지](https://www.acmicpc.net/)
