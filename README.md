@@ -20,7 +20,6 @@
     > 예) [BJ_3020] 개똥벌레
 
 ## 파일 및 폴더 구조
-
 ### 백준
 - Baekjoon/gunhoo/폴더명/문제번호_문제명.java
 - Baekjoon/jinhyung/폴더명/문제번호_문제명.java
@@ -38,11 +37,11 @@
 | 4주차    | 4_week  | [아기 상어](https://www.acmicpc.net/problem/16236)       | [테트로미노](https://www.acmicpc.net/problem/14500)        | [연구소](https://www.acmicpc.net/problem/14502)      | `진행 완료`   |
 | 5주차    | 5_week  | [감시](https://www.acmicpc.net/problem/15683)          | [드래곤 커브](https://www.acmicpc.net/problem/15685)       | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) | `진행 완료`   |
 
-### 2차 일정 (02/23~)
-| **주차** | **폴더명** | **문제 1(강신욱)**                                       | **문제 2(박건후)**                                         | **문제 3(배용현)**                                   | **문제 4(양진형)**                                    | **진행 현황** |
-|--------|---------|-----------------------------------------------------|-------------------------------------------------------|-------------------------------------------------|--------------------------------------------------|-----------|
-| 6주차    | 6_week  | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056) | [뱀](https://www.acmicpc.net/problem/3190)       | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | `진행 완료`   |
-| 7주차    | 7_week  | [연구소 3](https://www.acmicpc.net/problem/17142)      | [사다리 조작](https://www.acmicpc.net/problem/15684)       | [나무 재테크](https://www.acmicpc.net/problem/16235) | [경사로](https://www.acmicpc.net/problem/14890)     | `진행 중`    |
+| **주차** | **폴더명** | **문제 1(강신욱)**                                       | **문제 2(박건후)**                                         | **문제 3(배용현)**                                              | **문제 4(양진형)**                                    | **진행 현황** |
+|--------|---------|-----------------------------------------------------|-------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------|-----------|
+| 6주차    | 6_week  | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056) | [뱀](https://www.acmicpc.net/problem/3190)                  | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | `진행 완료`   |
+| 7주차    | 7_week  | [연구소 3](https://www.acmicpc.net/problem/17142)      | [사다리 조작](https://www.acmicpc.net/problem/15684)       | [나무 재테크](https://www.acmicpc.net/problem/16235)            | [경사로](https://www.acmicpc.net/problem/14890)     | `진행 완료`   |
+| 8주차    | 8_week  | [원판 돌리기](https://www.acmicpc.net/problem/17822)     | [욕심쟁이 판다](https://www.acmicpc.net/problem/1937)       | [가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002) | [게리맨더링 2](https://www.acmicpc.net/problem/17779) | `진행 중`    |
 
 ### 알고리즘 진행도
 | 주차   | 알고리즘   | 진행 현황   |
