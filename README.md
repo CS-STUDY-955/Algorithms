@@ -41,13 +41,14 @@
 |--------|---------|-----------------------------------------------------|-------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------|-----------|
 | 6주차    | 6_week  | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056) | [뱀](https://www.acmicpc.net/problem/3190)                  | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | `진행 완료`   |
 | 7주차    | 7_week  | [연구소 3](https://www.acmicpc.net/problem/17142)      | [사다리 조작](https://www.acmicpc.net/problem/15684)       | [나무 재테크](https://www.acmicpc.net/problem/16235)            | [경사로](https://www.acmicpc.net/problem/14890)     | `진행 완료`   |
-| 8주차    | 8_week  | [원판 돌리기](https://www.acmicpc.net/problem/17822)     | [욕심쟁이 판다](https://www.acmicpc.net/problem/1937)       | [가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002) | [게리맨더링 2](https://www.acmicpc.net/problem/17779) | `진행 중`    |
+| 8주차    | 8_week  | [원판 돌리기](https://www.acmicpc.net/problem/17822)     | [욕심쟁이 판다](https://www.acmicpc.net/problem/1937)       | [가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002) | [게리맨더링 2](https://www.acmicpc.net/problem/17779) | `진행 완료`   |
+| 9주차    | 9_week  | [찾기](https://www.acmicpc.net/problem/1786)          | [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | [PPAP](https://www.acmicpc.net/problem/16120)              | [주사위 윷놀이](https://www.acmicpc.net/problem/17825) | `진행 완료`   |
 
 ### 알고리즘 진행도
 | 주차   | 알고리즘   | 진행 현황   |
 |------|--------|---------|
-| 1주차  | DP     | `진행 예정` |
-| 2주차  | 문자열    | `진행 예정` |
+| 1주차  | DP     | `진행 완료` |
+| 2주차  | 문자열    | `진행 중`  |
 | 3주차  | 그리디    | `진행 예정` |
 | 4주차  | MST    | `진행 예정` |
 | 5주차  | 비트마스킹  | `진행 예정` |
