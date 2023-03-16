@@ -29,9 +29,9 @@ public class BJ_17779_게리맨더링2 {
 		// 1열 ~ N-2열, 0행 ~ N-3행에서 가능한 d1, d2 조합에 대해 divide 메서드 호출
 		for(int c = 1; c < N - 1; c++) {
 			for(int r = 0; r < N - 2; r++) {
-				for(int d1 = 1; d1 <= c; d1++) {
-					for(int d2 = 1; d2 < N-c; d2++) {
-						if(r + d1 + d2 < N)
+				for(int d1 = 1; d1 <= c; d1++) { // 좌측으로 넘어가지 않는 범위 내에서 d1 결정
+					for(int d2 = 1; d2 < N-c; d2++) { // 우측으로 넘어가지 않는 범위 내에서 d2 결정
+						if(r + d1 + d2 < N) // 하단으로 넘어가지 않는 범위 내에서 divide 메서드 호출
 							divide(r, c, d1, d2);
 					}
 				}
