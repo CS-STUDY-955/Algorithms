@@ -51,10 +51,12 @@ public class BJ_15686_치킨_배달 {
             String input = br.readLine();
             for(int j=0; j<N; j++) {
                 switch (input.charAt(j * 2)) {        // 홀수번째 인덱스는 공백이 등장함
-                    case '1' -> homes.add(new Point(j, i));
-                    // 1은 집
-                    case '2' -> stores.add(new Point(j, i));
-                    // 2는 치킨집
+                    case '1':       // 1은 집
+                        homes.add(new Point(j, i));
+                        break;
+                    case '2':       // 2는 치킨집
+                        stores.add(new Point(j, i));
+                        break;
                 }
             }
         }
