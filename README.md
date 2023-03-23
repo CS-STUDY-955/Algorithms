@@ -37,19 +37,20 @@
 | 4주차    | 4_week  | [아기 상어](https://www.acmicpc.net/problem/16236)       | [테트로미노](https://www.acmicpc.net/problem/14500)        | [연구소](https://www.acmicpc.net/problem/14502)      | `진행 완료`   |
 | 5주차    | 5_week  | [감시](https://www.acmicpc.net/problem/15683)          | [드래곤 커브](https://www.acmicpc.net/problem/15685)       | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) | `진행 완료`   |
 
-| **주차** | **폴더명** | **문제 1(강신욱)**                                       | **문제 2(박건후)**                                         | **문제 3(배용현)**                                              | **문제 4(양진형)**                                    | **진행 현황** |
-|--------|---------|-----------------------------------------------------|-------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------|-----------|
-| 6주차    | 6_week  | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056) | [뱀](https://www.acmicpc.net/problem/3190)                  | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | `진행 완료`   |
-| 7주차    | 7_week  | [연구소 3](https://www.acmicpc.net/problem/17142)      | [사다리 조작](https://www.acmicpc.net/problem/15684)       | [나무 재테크](https://www.acmicpc.net/problem/16235)            | [경사로](https://www.acmicpc.net/problem/14890)     | `진행 완료`   |
-| 8주차    | 8_week  | [원판 돌리기](https://www.acmicpc.net/problem/17822)     | [욕심쟁이 판다](https://www.acmicpc.net/problem/1937)       | [가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002) | [게리맨더링 2](https://www.acmicpc.net/problem/17779) | `진행 완료`   |
-| 9주차    | 9_week  | [찾기](https://www.acmicpc.net/problem/1786)          | [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | [PPAP](https://www.acmicpc.net/problem/16120)              | [주사위 윷놀이](https://www.acmicpc.net/problem/17825) | `진행 중`    |
+| **주차** | **폴더명** | **문제 1(강신욱)**                                       | **문제 2(박건후)**                                         | **문제 3(배용현)**                                              | **문제 4(양진형)**                                    | Extra                                      | **진행 현황** |
+|--------|---------|-----------------------------------------------------|-------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------|--------------------------------------------|-----------|
+| 6주차    | 6_week  | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056) | [뱀](https://www.acmicpc.net/problem/3190)                  | [주사위 굴리기](https://www.acmicpc.net/problem/14499) |                                            | `진행 완료`   |
+| 7주차    | 7_week  | [연구소 3](https://www.acmicpc.net/problem/17142)      | [사다리 조작](https://www.acmicpc.net/problem/15684)       | [나무 재테크](https://www.acmicpc.net/problem/16235)            | [경사로](https://www.acmicpc.net/problem/14890)     |                                            | `진행 완료`   |
+| 8주차    | 8_week  | [원판 돌리기](https://www.acmicpc.net/problem/17822)     | [욕심쟁이 판다](https://www.acmicpc.net/problem/1937)       | [가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002) | [게리맨더링 2](https://www.acmicpc.net/problem/17779) |                                            | `진행 완료`   |
+| 9주차    | 9_week  | [찾기](https://www.acmicpc.net/problem/1786)          | [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | [PPAP](https://www.acmicpc.net/problem/16120)              | [주사위 윷놀이](https://www.acmicpc.net/problem/17825) |                                            | `진행 완료`   |
+| 10주차   | 10_week | [공항](https://www.acmicpc.net/problem/10775)         | [마법사상어와파이어스톰](https://www.acmicpc.net/problem/20058)  | [마법사상어와블리자드](https://www.acmicpc.net/problem/21611)        | [보석도둑](https://www.acmicpc.net/problem/1202)     | [광고](https://www.acmicpc.net/problem/1305) | `진행 중`    |
 
 ### 알고리즘 진행도
 | 주차   | 알고리즘   | 진행 현황   |
 |------|--------|---------|
 | 1주차  | DP     | `진행 완료` |
-| 2주차  | 문자열    | `진행 중`  |
-| 3주차  | 그리디    | `진행 예정` |
+| 2주차  | 문자열    | `진행 완료` |
+| 3주차  | 그리디    | `진행 중`  |
 | 4주차  | MST    | `진행 예정` |
 | 5주차  | 비트마스킹  | `진행 예정` |
 | 6주차  | 다익스트라  | `진행 예정` |
@@ -57,7 +58,6 @@
 | 8주차  | 해시     | `진행 예정` |
 | 9주차  | 정렬     | `진행 예정` |
 | 10주차 | 벨만 포드  | `진행 예정` |
-
 
 ## 참고
 - [백준온라인저지](https://www.acmicpc.net/)
