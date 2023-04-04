@@ -16,7 +16,6 @@ import static java.lang.Integer.parseInt;
  * -------------------------------
  * 1. 단순 방문 배열을 이용하면 두 그룹이 생겨 서로 연결되지 않을 수 있다.
  * 2. 따라서 유니온 파인드 알고리즘을 사용해야 한다.
- * 3.
  *
  * @author 배용현
  */
@@ -35,10 +34,10 @@ class BJ_1922_네트워크연결 {
 	}
 
 	private static void solution() {
-		for (int i = 0; i < M; i++) {
-			if (find(edges[i][0]) != find(edges[i][1])) {
-				answer += edges[i][2];
-				union(edges[i][0], edges[i][1]);
+		for (int i = 0; i < M; i++) {		// 모든 간선 조사해서
+			if (find(edges[i][0]) != find(edges[i][1])) {		// 부모가 다르면(연결되지 않았으면)
+				union(edges[i][0], edges[i][1]);		// 연결하고
+				answer += edges[i][2];		// 가중치 정답에 추가
 			}
 		}
 	}
@@ -72,7 +71,7 @@ class BJ_1922_네트워크연결 {
 			edges[i][2] = parseInt(st.nextToken());
 		}
 
-		Arrays.sort(edges, new Comparator<int[]>() {
+		Arrays.sort(edges, new Comparator<int[]>() {		// 세번째 원소(가중치)를 기준 정렬
 			@Override
 			public int compare(int[] o1, int[] o2) {
 				return o1[2] - o2[2];
