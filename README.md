@@ -52,7 +52,8 @@
 | 8주차    | 8_week  | [원판 돌리기](https://www.acmicpc.net/problem/17822)     | [욕심쟁이 판다](https://www.acmicpc.net/problem/1937)        | [가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002) | [게리맨더링 2](https://www.acmicpc.net/problem/17779)   |                                            | `진행 완료`   |
 | 9주차    | 9_week  | [찾기](https://www.acmicpc.net/problem/1786)          | [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)  | [PPAP](https://www.acmicpc.net/problem/16120)              | [주사위 윷놀이](https://www.acmicpc.net/problem/17825)   |                                            | `진행 완료`   |
 | 10주차   | 10_week | [공항](https://www.acmicpc.net/problem/10775)         | [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058) | [마법사상어와블리자드](https://www.acmicpc.net/problem/21611)        | [보석도둑](https://www.acmicpc.net/problem/1202)       | [광고](https://www.acmicpc.net/problem/1305) | `진행 완료`    |
-| 11주차   | 11_week | [구슬 탈출 2](https://www.acmicpc.net/problem/13460)    | [네트워크 연결](https://www.acmicpc.net/problem/1922)        | [복제 로봇](https://www.acmicpc.net/problem/1944)              | [주사위 굴리기 2](https://www.acmicpc.net/problem/23288) |                                            | `진행 중`   |
+| 11주차   | 11_week | [구슬 탈출 2](https://www.acmicpc.net/problem/13460)    | [네트워크 연결](https://www.acmicpc.net/problem/1922)        | [복제 로봇](https://www.acmicpc.net/problem/1944)              | [주사위 굴리기 2](https://www.acmicpc.net/problem/23288) |                                            | `진행 완료`   |
+| 12주차   | 12_week | [큐빙](https://www.acmicpc.net/problem/5373)  | [계단 수](https://www.acmicpc.net/problem/1562)           | [새로운 게임 2](https://www.acmicpc.net/problem/17837)              | [종이 조각](https://www.acmicpc.net/problem/14391)     | [불 끄기](https://www.acmicpc.net/problem/14939) | `진행 중`    |
 
 ### 알고리즘 진행도
 | 주차   | 알고리즘   | 진행 현황   |
@@ -60,8 +61,8 @@
 | 1주차  | DP     | `진행 완료` |
 | 2주차  | 문자열    | `진행 완료` |
 | 3주차  | 그리디    | `진행 완료`  |
-| 4주차  | MST    | `진행 중` |
-| 5주차  | 비트마스킹  | `진행 예정` |
+| 4주차  | MST    | `진행 완료` |
+| 5주차  | 비트마스킹  | `진행 중` |
 | 6주차  | 다익스트라  | `진행 예정` |
 | 7주차  | 수학(확률) | `진행 예정` |
 | 8주차  | 해시     | `진행 예정` |
