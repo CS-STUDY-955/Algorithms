@@ -7,7 +7,9 @@ import java.util.*;
  * 도로포장
  * https://www.acmicpc.net/problem/1162
  *
- * 1.
+ * 1. 3개 숫자를 묶어야하는데 자료형이 다르므로 클래스를 생성하는게 편하다
+ * 2. HashMap을 사용해서 연결리스트를 만들면 시간이 좀 더 오래 걸린다.
+ * 3. 백트래킹을 해주지 않으면 43%에서 시간초과가 발생한다.
  *
  * @author 배용현
  *
@@ -26,10 +28,9 @@ class BJ_1162_도로포장 {
 	}
 
 	static int N, M, K;
-	static HashMap<Integer, ArrayList<Edge>> edges = new HashMap<>();
+	static ArrayList<Edge>[] edges;
 	static long[][] dp;
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	static StringBuilder sb = new StringBuilder();
 	static StringTokenizer st;
 
 	public static void main(String[] args) throws IOException {
@@ -44,15 +45,18 @@ class BJ_1162_도로포장 {
 		M = Integer.parseInt(st.nextToken());
 		K = Integer.parseInt(st.nextToken());
 
+		edges = new ArrayList[N+1];
+		for (int i = 0; i <= N; i++) {
+			edges[i] = new ArrayList<>();
+		}
 		for (int i = 0; i < M; i++) {
 			st = new StringTokenizer(br.readLine());
 			int start = Integer.parseInt(st.nextToken());
 			int end = Integer.parseInt(st.nextToken());
 			long cost = Long.parseLong(st.nextToken());
 
-			if(!edges.containsKey(start))        // 해시맵으로 인접 리스트를 구현
-				edges.put(start, new ArrayList<>());        // 경로가 존재하는 키에 대해서만 저장되게 할 수 있음
-			edges.get(start).add(new Edge(end, cost, 1));        // 해시맵의 키가 시작노드이고 값은 끝노드, 비용을 나타내는 배열의 리스트
+			edges[start].add(new Edge(end, cost, 1));        // 해시맵의 키가 시작노드이고 값은 끝노드, 비용을 나타내는 배열의 리스트
+			edges[end].add(new Edge(start, cost, 1));		// paveCount는 더미
 		}
 
 		dp = new long[N+1][K+1];        // 포장 기회 k개를 사용했을때 출발지 노드부터 각 노드까지의 최소 비용
@@ -77,11 +81,11 @@ class BJ_1162_도로포장 {
 			long costAcc = cur.cost;
 			int paveCount = cur.paveCount;
 
-			if (!edges.containsKey(from)) {        // 연결된 간선이 존재하지 않으면 리턴
+			if (costAcc > dp[from][paveCount]) {
 				continue;
 			}
 
-			for (Edge edge : edges.get(from)) {        // 연결된 간선으로
+			for (Edge edge : edges[from]) {        // 연결된 간선으로
 				int nextNode = edge.end;
 				long nextCostAcc = costAcc + edge.cost;
 
@@ -89,7 +93,7 @@ class BJ_1162_도로포장 {
 					return;
 				}
 
-				if (paveCount < K && dp[nextNode][paveCount+1] > dp[from][paveCount]) {        // 이 도로 포장
+				if (paveCount < K && dp[nextNode][paveCount+1] > costAcc) {        // 이 도로 포장
 					dp[nextNode][paveCount+1] = costAcc;
 					pq.add(new Edge(nextNode, costAcc, paveCount+1));        // 해당 간선을 큐에 추가하고 최소 비용 갱신
 				}
@@ -109,7 +113,7 @@ class BJ_1162_도로포장 {
 		for (int i = 0; i <= K; i++) {
 			min = Math.min(min, dp[N][i]);
 		}
-		System.out.println(min);
+		System.out.print(min);
 	}
 
 }
