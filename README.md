@@ -57,7 +57,7 @@
 | 13주차   | 13_week | [도로포장](https://www.acmicpc.net/problem/1162)         | [최소비용 구하기 2](https://www.acmicpc.net/problem/11779)    | [온풍기 안녕!](https://www.acmicpc.net/problem/23289)           | [모노미노도미노 2](https://www.acmicpc.net/problem/20061)  | [해킹](https://www.acmicpc.net/problem/10282)   | `진행 완료`   |
 | 14주차   | 14_week | [마법사 상어와 복제](https://www.acmicpc.net/problem/23290)  | [청소년 상어](https://www.acmicpc.net/problem/19236)        | [발전소](https://www.acmicpc.net/problem/1102)                | [KCM Travel](https://www.acmicpc.net/problem/10217) | [내리막 길](https://www.acmicpc.net/problem/1520) | `진행 완료`   |
 | 15주차   | 15_week | [2048 (Easy)](https://www.acmicpc.net/problem/12100) | [친구 네트워크](https://www.acmicpc.net/problem/4195)        | [어른 상어](https://www.acmicpc.net/problem/19237)             | [귀농](https://www.acmicpc.net/problem/1184)          | [좋다](https://www.acmicpc.net/problem/1253)    | `진행 중`    |
-| 16주차   | 16_week | [스타트 택시](https://www.acmicpc.net/problem/19238)      | [상어 중학교](https://www.acmicpc.net/problem/21609)        | [행성 터널](https://www.acmicpc.net/problem/2887)              | [전시장](https://www.acmicpc.net/problem/2515)         | [과제](https://www.acmicpc.net/problem/13904)   | `진행 예정`   |
+| 16주차   | 16_week | [스타트 택시](https://www.acmicpc.net/problem/19238)      | [상어 중학교](https://www.acmicpc.net/problem/21609)        | [행성 터널](https://www.acmicpc.net/problem/2887)              | [전시장](https://www.acmicpc.net/problem/2515)         | [과제](https://www.acmicpc.net/problem/13904)   | `진행 중`   |
 
 ### 알고리즘 진행도
 | 주차   | 알고리즘  | 진행 현황   |
